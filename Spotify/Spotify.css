@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI,CircularSp,Helvetica,Arial,sans-serif;
+}
+nav{
+    border: 2px solid black;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+nav div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+nav svg{
+    height: 35px;
+    fill: white;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav div{
+    width: 10%;
+}
+nav div+div{
+    width: 35%;
+}
+nav li{
+    font-size: 15px; ;
+    font-weight: 600;
+}
+nav li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+
+
+main{
+    height: 525px;
+    background: url('./assests/desktop-hero.jpeg') center 40% / 100% no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: white;
+}
+main button{
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+#sec1{
+    /* border: 2px solid green; */
+    height: 600px;
+}
+#sec1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+aside div{
+    height: 60%;
+    width: 17%;
+    text-align: center;
+}
+aside div h3{
+    font-weight: 700;
+}
+aside div p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+#sec2{
+    height: 450px;
+    background-color: #1ed760;
+}
+#sec2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -1.5px;
+
+}
+#sec2 div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#sec2 div img{
+    width: 600px;
+    height: 318px;
+}
+
+#sec3{
+    height: 590px;
+}
+#sec3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+#sec3 aside{
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10%;
+}
+#sec3 div{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 details{
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+#sec3 summary{
+    list-style: none;
+    height: 30px;
+    width: 1100px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+}
+#sec3 span{
+    float: right;
+    /* font-size: 28px; */
+    /* font-weight: 300; */
+}
+#sec3 summary:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(229, 235, 241);
+}
+#sec3 font{
+    color: #1ed760;
+    font-weight: 600;
+}
+#sec3 p{
+    /* padding: 250px; */
+    text-align: left;
+}
+#sec4{
+    /* border: 2px solid red; */
+    height: 450px;
+    background: url('./assests/tablet-closing.jpeg') center 36% / 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#sec4 h1{
+    color: white;
+    font-size: 62px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+#sec4 button{
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+footer aside{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+footer svg{
+    fill: white;
+    height: 35px;
+}
+footer ul{
+    list-style: none;
+    line-height: 205%;
+}
+footer ul>li{
+    color: gray;
+    text-transform: uppercase;
+    text-align: left;
+}
+footer ul>li+li{
+    color: white;
+    text-transform: capitalize;
+}
+footer ul>li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer article{
+    /* border: 2px solid green; */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* display: flex; */
+    font-size: 25px;
+    background-color: #222326;
+}
+footer svg,article:hover{
+    cursor: pointer;
+}
+footer div:last-child{
+    display: flex;
+    gap: 25px;
+}
+.d1{
+    font-size: 13px;
+    font-weight: 600;
+}
